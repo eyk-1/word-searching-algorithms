@@ -215,11 +215,11 @@ neighbors_map = precompute_neighbors(embeddings, k=K)
 
 # ── Word pairs to test ────────────────────────────────────────────────────────
 pairs = [
-    ("doped",   "leather"),
-    ("shoves",  "caressing"),
-    ("knave",   "foxes"),
-    ("soar",    "whistler"),
-    ("replace", "rajasekhara"),  # semantically distant / likely failure case
+    ("hate",   "harmony"),
+    ("badger",  "shark"),
+    ("rose",   "leather"),
+    ("pleasure", "beauty"),
+    ("heuristic", "storyboards"),  # semantically distant / likely failure case
 ]
 
 for start, goal in pairs:
